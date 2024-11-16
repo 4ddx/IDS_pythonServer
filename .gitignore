@@ -1,0 +1,18 @@
+# Ignore the virtual environment directory
+.venv/
+
+# Ignore the Python bytecode files
+__pycache__/
+
+# Ignore the model if it's large (you can optionally upload this if it's small enough)
+RandomForestClassifier.pkl
+
+# Ignore IDE/editor files (for example, VS Code)
+.vscode/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore any log files or temporary files
+*.log
+*.tmp
